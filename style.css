@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.left-nav-bar {
+    grid-row: 1 / -1;
+}
+
+/* we want to make sure that the only element in the left is
+the left nav bar we need to set the other elements to start in the 
+2nd coloumn*/
+
